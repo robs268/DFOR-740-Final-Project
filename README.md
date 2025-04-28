@@ -122,4 +122,4 @@ The script creates CSV files in the scanned directory with names like:
 
 ## Author
 
-[Your name and contact information]
+Robert Schwartz
