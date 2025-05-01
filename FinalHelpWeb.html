@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index_html.css?h=880b96a2">
+</head>
+<body>
+<div class="textstyle1">
+<span class="textstyle2">Final Help Page</span>  </div>
+<div class="textstyle3">
+<span class="textstyle4"><br/><br/>There are three kinds of arguements you can use with the program:<br/></span>  <ul id="ul_27a5273a" class="ulstyle1">
+    <li><span class="textstyle4">Boolean value - where you assign the value on the command line.  </span>      </li>
+    <ul id="ul_1abba20d" class="ulstyle1">
+      <li><span class="textstyle4">.\final.ps1 -ChangeFile $true</span>        </li>
+      </ul>
+    <li><span class="textstyle4">String value - you assign a string to a variable to be used in the program.  The only one like this is directory</span>      </li>
+    <ul id="ul_1ea2dbfe" class="ulstyle1">
+      <li><span class="textstyle4">.\final.ps1- Directory &quot;c:\MyFolder&quot;</span>        </li>
+      </ul>
+    <li><span class="textstyle4">Switch value - the value is assumed to be true.  If you want a false, you have to do it manually.  For example if you want to not do sub directories, you must use do it in the program.  Any example would be  </span>      </li>
+    <ul id="ul_e6feb80" class="ulstyle1">
+      <li><span class="textstyle4">.\final.ps1 -recurse</span>        </li>
+      </ul>
+    </ul>
+<span class="textstyle4"><br/>Here are the different command line arguements:<br/></span>  <ul id="ul_3ae69361" class="ulstyle2">
+    <li><span class="textstyle5">Directory</span><span class="textstyle4"> - used to tell the program what directory to scan.  For example: </span>      </li>
+    <ul id="ul_6511bd12" class="ulstyle3">
+      <li><span class="textstyle6">.\final.ps1 -Directory &quot;MyFolder&quot;</span>        </li>
+      </ul>
+    <li><span class="textstyle5">ViewGui</span><span class="textstyle4"> - used to tell the program if you want to see the results in the GUI.  It is a switch, and therefore can only be set to true:</span>      </li>
+    <ul id="ul_78bff89b" class="ulstyle3">
+      <li><span class="textstyle7">.\final.ps1 -ViewGui </span>        </li>
+      </ul>
+    <li><span class="textstyle5">Base</span><span class="textstyle4"> - used to tell the program if you want the file that just created to be a base file.  There is no real difference between the files, but base files end with _base.csv  If you want to run <br/>you want to run this process and make a base file do:</span>      </li>
+    <ul id="ul_6ce345d0" class="ulstyle3">
+      <li><span class="textstyle7">.\final.ps1 -Base</span>        </li>
+      </ul>
+    <li><span class="textstyle5">Recurse</span><span class="textstyle4"> if you want to do sub directories at the same time you do the main directory, use recurse.  It will assume you want to do all sub directories below you main directory, so if you use it be careful.  If it has lots of files and subdirectories, the program will take a while to finish.</span>      </li>
+    <ul id="ul_3ca14934" class="ulstyle3">
+      <li><span class="textstyle7">.\final.ps1 -Recurse</span>        </li>
+      </ul>
+    <li><span class="textstyle5">compare</span><span class="textstyle4"> - checks if you want to compare it against the base file.  The program assumes that you want to use the oldest file is the base file.  If there is a different base file you want to use, you will have to do it manually in the program.</span>      </li>
+    <ul id="ul_8b63d45" class="ulstyle3">
+      <li><span class="textstyle7">.\final.ps1 -Compare</span>        </li>
+      </ul>
+    <li><span class="textstyle5">ChangeFile</span><span class="textstyle4"> - checks to see when you compare two files, if you want to make a change file of the differences.Change files end in _changefile.csv.  Compare is a switch parameter,<br/>so by adding it, you are saying yes to compare.</span>      </li>
+    <ul id="ul_7d6e0e94" class="ulstyle3">
+      <li><span class="textstyle7">finalFinal.ps1 -ChangeFile</span><span class="textstyle4"> </span>        </li>
+      </ul>
+    <li><span class="textstyle5">Help</span><span class="textstyle4"> - This screen - The program will exit the program when complete.</span>      </li>
+    <ul id="ul_12dee79e" class="ulstyle3">
+      <li><span class="textstyle7">.\final -Help </span>        </li>
+      </ul>
+    <li><span class="textstyle5">helpweb</span><span class="textstyle4"> - This screen as a web page.</span>      </li>
+    <ul id="ul_2145fd1" class="ulstyle3">
+      <li><span class="textstyle8">.\final.ps1 -helpweb</span>        </li>
+      </ul>
+    <li><span class="textstyle4"> </span>      </li>
+    </ul>
+<span class="textstyle4"><br/></span>  </div>
+</body>
+</html>
